@@ -1,0 +1,65 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.navbar{
+    background-color: rgba(139, 200, 78, 0.5);
+
+}
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color:  rgb(139, 200, 78) ;
+}
+#cabecalho .nav .nav-link ,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #F52E75;
+}
+
+.navbar-toggler{
+    background-color: #f52e7465;
+}
+.section-title{
+    font-family: Pacifico, cursive;
+    font: bold;
+}
+
+#sobre-a-loja, #flores-da-estacao {
+    background-color: rgba(139, 200, 78, 0.5) ;
+}
+.text-colored{
+    color:#F52E75 ;
+}
+#datas-especiais img{
+    height: 190px;
+}
+.tab-pane img{
+    height: 160px;
+}
+.nav-flores .nav-link.active{
+    background-color:  #f52e744b ;
+    color:  rgb(35, 70, 2) ;
+}
+.nav-flores .nav-link:hover{
+    color:rgb(11, 22, 1) ;
+}
+.redes-sociais-links li{
+    list-style: none;
+    display: inline;
+    
+
+}
+.redes-sociais-links a{
+    text-decoration: none;
+}
+.btn{
+    background-color:rgba(73, 143, 8, 0.521);
+    color: #F52E75;
+
+}
+@media (max-width: 767px){
+    .carousel-item img{
+        height: 280px;
+    }
+
+}
